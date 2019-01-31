@@ -1,0 +1,44 @@
+body{
+    width:1350px;
+    margin:0;
+}
+img{
+    width:256px;
+    height:160px;
+}
+li{
+    display: inline;
+    margin:3px;
+}
+.iMg{
+    height:600px;
+    width:1000px;
+    position: absolute;
+    left:174.5px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.important{
+    width: 786px;
+    height:170px;
+    position: absolute;
+    left:107px ; 
+    overflow: hidden;
+}
+ul{
+    /*visibility: hidden;*/
+    width: 786px;
+    height:170px;
+    padding:0;
+    margin: 0;
+    position: absolute;
+    left:0px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+input[type=button]{
+    width:100px;
+    height:40px;
+    font-size: 15px;
+}
